@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 06639012657d30e4abb2bd85fa54f1f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8064306008932764774
+    second: chay bi ngo_0
+  - first:
+      213: -5339935523541616774
+    second: chay bi ngo_1
+  - first:
+      213: -3126776257778095793
+    second: chay bi ngo_2
+  - first:
+      213: -1943133199411387429
+    second: chay bi ngo_3
+  - first:
+      213: -2889075683209452393
+    second: chay bi ngo_4
+  - first:
+      213: 2432405534241629822
+    second: chay bi ngo_5
+  - first:
+      213: 5499498535087049954
+    second: chay bi ngo_6
+  - first:
+      213: 7854679388421015281
+    second: chay bi ngo_7
+  - first:
+      213: 3813355208686962020
+    second: chay bi ngo_8
+  - first:
+      213: 1655890202410795083
+    second: chay bi ngo_9
+  - first:
+      213: 8228838688070511999
+    second: chay bi ngo_10
+  - first:
+      213: 1389968914689104628
+    second: chay bi ngo_11
+  - first:
+      213: 4312880936216109224
+    second: chay bi ngo_12
+  - first:
+      213: -114288825196398457
+    second: chay bi ngo_13
+  - first:
+      213: 2197605006452173020
+    second: chay bi ngo_14
+  - first:
+      213: 93142716779301240
+    second: chay bi ngo_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 640
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chay bi ngo_0
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 2059
+        width: 940
+        height: 1020
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93b3815964d51090800000000000000
+      internalID: -8064306008932764774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_1
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 2079
+        width: 922
+        height: 932
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77ffcbfeecb4e5b0800000000000000
+      internalID: -5339935523541616774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_2
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 2079
+        width: 942
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49e2075f857b94d0800000000000000
+      internalID: -3126776257778095793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_3
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 2079
+        width: 942
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3e0d976aa9805e0800000000000000
+      internalID: -1943133199411387429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_4
+      rect:
+        serializedVersion: 2
+        x: 7209
+        y: 2079
+        width: 942
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794e41d19f0f7e7d0800000000000000
+      internalID: -2889075683209452393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_5
+      rect:
+        serializedVersion: 2
+        x: 8919
+        y: 2079
+        width: 942
+        height: 892
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76aa2a22f3a1c120800000000000000
+      internalID: 2432405534241629822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_6
+      rect:
+        serializedVersion: 2
+        x: 10629
+        y: 2079
+        width: 942
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec05a2b7c4225c40800000000000000
+      internalID: 5499498535087049954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_7
+      rect:
+        serializedVersion: 2
+        x: 12339
+        y: 2079
+        width: 942
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6ca63b94d610d60800000000000000
+      internalID: 7854679388421015281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_8
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 369
+        width: 912
+        height: 972
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4650c28bb52cbe430800000000000000
+      internalID: 3813355208686962020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_9
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 369
+        width: 982
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40ceb5ad57eaf610800000000000000
+      internalID: 1655890202410795083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_10
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 369
+        width: 942
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d2f644035b23270800000000000000
+      internalID: 8228838688070511999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_11
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 369
+        width: 982
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa11e01d592a4310800000000000000
+      internalID: 1389968914689104628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_12
+      rect:
+        serializedVersion: 2
+        x: 7209
+        y: 369
+        width: 942
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a027b16c5e6adb30800000000000000
+      internalID: 4312880936216109224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_13
+      rect:
+        serializedVersion: 2
+        x: 8879
+        y: 369
+        width: 982
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7883f544be6f96ef0800000000000000
+      internalID: -114288825196398457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_14
+      rect:
+        serializedVersion: 2
+        x: 10629
+        y: 369
+        width: 942
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8a3362c167f7e10800000000000000
+      internalID: 2197605006452173020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chay bi ngo_15
+      rect:
+        serializedVersion: 2
+        x: 12339
+        y: 369
+        width: 942
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8798b03bec8ea4100800000000000000
+      internalID: 93142716779301240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 30d0db09ba13f3a4f81612e4b8ebda62
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chay bi ngo_0: -8064306008932764774
+      chay bi ngo_1: -5339935523541616774
+      chay bi ngo_10: 8228838688070511999
+      chay bi ngo_11: 1389968914689104628
+      chay bi ngo_12: 4312880936216109224
+      chay bi ngo_13: -114288825196398457
+      chay bi ngo_14: 2197605006452173020
+      chay bi ngo_15: 93142716779301240
+      chay bi ngo_2: -3126776257778095793
+      chay bi ngo_3: -1943133199411387429
+      chay bi ngo_4: -2889075683209452393
+      chay bi ngo_5: 2432405534241629822
+      chay bi ngo_6: 5499498535087049954
+      chay bi ngo_7: 7854679388421015281
+      chay bi ngo_8: 3813355208686962020
+      chay bi ngo_9: 1655890202410795083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

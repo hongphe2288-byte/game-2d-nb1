@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 94b300102c5d8cf49a51790e1032763f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8974326714429057897
+    second: bi ngo nhay_0
+  - first:
+      213: 5667041193299601671
+    second: bi ngo nhay_1
+  - first:
+      213: 4740791118695033084
+    second: bi ngo nhay_2
+  - first:
+      213: 5755357823006973177
+    second: bi ngo nhay_3
+  - first:
+      213: 2871464501593322245
+    second: bi ngo nhay_4
+  - first:
+      213: 8602634091263111063
+    second: bi ngo nhay_5
+  - first:
+      213: 2009662671680008839
+    second: bi ngo nhay_6
+  - first:
+      213: -6425525578646316445
+    second: bi ngo nhay_7
+  - first:
+      213: 135147298118403291
+    second: bi ngo nhay_8
+  - first:
+      213: 1822003811537606999
+    second: bi ngo nhay_9
+  - first:
+      213: 4346547412298306757
+    second: bi ngo nhay_10
+  - first:
+      213: -7366941959216712961
+    second: bi ngo nhay_11
+  - first:
+      213: -8083147427369343245
+    second: bi ngo nhay_12
+  - first:
+      213: -2804244569994481394
+    second: bi ngo nhay_13
+  - first:
+      213: 6280324028438958619
+    second: bi ngo nhay_14
+  - first:
+      213: -8729890025872996407
+    second: bi ngo nhay_15
+  - first:
+      213: 380936452536338855
+    second: bi ngo nhay_16
+  - first:
+      213: 4168555898220256484
+    second: bi ngo nhay_17
+  - first:
+      213: -8717061089747590951
+    second: bi ngo nhay_18
+  - first:
+      213: 4802566865412853423
+    second: bi ngo nhay_19
+  - first:
+      213: -8640337987680561040
+    second: bi ngo nhay_20
+  - first:
+      213: -5056473635876655224
+    second: bi ngo nhay_21
+  - first:
+      213: -1820403546062098942
+    second: bi ngo nhay_22
+  - first:
+      213: -5658941553833629260
+    second: bi ngo nhay_23
+  - first:
+      213: 804345756983418853
+    second: bi ngo nhay_24
+  - first:
+      213: 2486565952239413504
+    second: bi ngo nhay_25
+  - first:
+      213: -2310974831218111310
+    second: bi ngo nhay_26
+  - first:
+      213: 107397312554988621
+    second: bi ngo nhay_27
+  - first:
+      213: -1476270480858800624
+    second: bi ngo nhay_28
+  - first:
+      213: 7417393565698596093
+    second: bi ngo nhay_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bi ngo nhay_0
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 2059
+        width: 862
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ba7d749963b8c70800000000000000
+      internalID: 8974326714429057897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_1
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2069
+        width: 872
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709e026a0ff55ae40800000000000000
+      internalID: 5667041193299601671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_2
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 2089
+        width: 852
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8e428976caac140800000000000000
+      internalID: 4740791118695033084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_3
+      rect:
+        serializedVersion: 2
+        x: 5489
+        y: 2189
+        width: 902
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc989362732fdf40800000000000000
+      internalID: 5755357823006973177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_4
+      rect:
+        serializedVersion: 2
+        x: 7169
+        y: 2079
+        width: 1102
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5033d9220cd79d720800000000000000
+      internalID: 2871464501593322245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_5
+      rect:
+        serializedVersion: 2
+        x: 8829
+        y: 2079
+        width: 972
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f27669022b26770800000000000000
+      internalID: 8602634091263111063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_6
+      rect:
+        serializedVersion: 2
+        x: 10519
+        y: 2769
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78279df5d81c3eb10800000000000000
+      internalID: 2009662671680008839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_7
+      rect:
+        serializedVersion: 2
+        x: 10579
+        y: 2119
+        width: 1072
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a9995b782f3d6a0800000000000000
+      internalID: -6425525578646316445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_8
+      rect:
+        serializedVersion: 2
+        x: 12369
+        y: 2069
+        width: 862
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd483b860c320e100800000000000000
+      internalID: 135147298118403291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_9
+      rect:
+        serializedVersion: 2
+        x: 10489
+        y: 2709
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7595b1e20de094910800000000000000
+      internalID: 1822003811537606999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_10
+      rect:
+        serializedVersion: 2
+        x: 10459
+        y: 2589
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c41f6da7d9025c30800000000000000
+      internalID: 4346547412298306757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_11
+      rect:
+        serializedVersion: 2
+        x: 13199
+        y: 2459
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2b7ffd15d53c990800000000000000
+      internalID: -7366941959216712961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_12
+      rect:
+        serializedVersion: 2
+        x: 13249
+        y: 2069
+        width: 192
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6a98cbd34e2df80800000000000000
+      internalID: -8083147427369343245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_13
+      rect:
+        serializedVersion: 2
+        x: 9039
+        y: 2039
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01392ecb625519d0800000000000000
+      internalID: -2804244569994481394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_14
+      rect:
+        serializedVersion: 2
+        x: 9219
+        y: 2009
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b125475ed61382750800000000000000
+      internalID: 6280324028438958619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_15
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 369
+        width: 862
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c74d9f364339d680800000000000000
+      internalID: -8729890025872996407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_16
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 379
+        width: 872
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a90d6f6fab594500800000000000000
+      internalID: 380936452536338855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_17
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 429
+        width: 902
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec17c3e08fa9d930800000000000000
+      internalID: 4168555898220256484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_18
+      rect:
+        serializedVersion: 2
+        x: 5469
+        y: 569
+        width: 982
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d02734bf17c60780800000000000000
+      internalID: -8717061089747590951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_19
+      rect:
+        serializedVersion: 2
+        x: 7219
+        y: 309
+        width: 792
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae8ef67e1526a240800000000000000
+      internalID: 4802566865412853423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_20
+      rect:
+        serializedVersion: 2
+        x: 8759
+        y: 629
+        width: 142
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0789cf0f06a571880800000000000000
+      internalID: -8640337987680561040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_21
+      rect:
+        serializedVersion: 2
+        x: 8879
+        y: 429
+        width: 1012
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fa17db40cc3d9b0800000000000000
+      internalID: -5056473635876655224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_22
+      rect:
+        serializedVersion: 2
+        x: 10619
+        y: 389
+        width: 1062
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e6b19ae90acb6e0800000000000000
+      internalID: -1820403546062098942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_23
+      rect:
+        serializedVersion: 2
+        x: 12339
+        y: 359
+        width: 852
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9ac0f93a66771b0800000000000000
+      internalID: -5658941553833629260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_24
+      rect:
+        serializedVersion: 2
+        x: 13409
+        y: 669
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efd691543c992b00800000000000000
+      internalID: 804345756983418853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_25
+      rect:
+        serializedVersion: 2
+        x: 8809
+        y: 589
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009afc52f8e028220800000000000000
+      internalID: 2486565952239413504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_26
+      rect:
+        serializedVersion: 2
+        x: 8839
+        y: 529
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc406492a4cdefd0800000000000000
+      internalID: -2310974831218111310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_27
+      rect:
+        serializedVersion: 2
+        x: 13469
+        y: 509
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44fba8694d8d7100800000000000000
+      internalID: 107397312554988621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_28
+      rect:
+        serializedVersion: 2
+        x: 13419
+        y: 389
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e140cb1db338be0800000000000000
+      internalID: -1476270480858800624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_29
+      rect:
+        serializedVersion: 2
+        x: 13369
+        y: 349
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc9bb22620efe660800000000000000
+      internalID: 7417393565698596093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bi ngo nhay_0: 8974326714429057897
+      bi ngo nhay_1: 5667041193299601671
+      bi ngo nhay_10: 4346547412298306757
+      bi ngo nhay_11: -7366941959216712961
+      bi ngo nhay_12: -8083147427369343245
+      bi ngo nhay_13: -2804244569994481394
+      bi ngo nhay_14: 6280324028438958619
+      bi ngo nhay_15: -8729890025872996407
+      bi ngo nhay_16: 380936452536338855
+      bi ngo nhay_17: 4168555898220256484
+      bi ngo nhay_18: -8717061089747590951
+      bi ngo nhay_19: 4802566865412853423
+      bi ngo nhay_2: 4740791118695033084
+      bi ngo nhay_20: -8640337987680561040
+      bi ngo nhay_21: -5056473635876655224
+      bi ngo nhay_22: -1820403546062098942
+      bi ngo nhay_23: -5658941553833629260
+      bi ngo nhay_24: 804345756983418853
+      bi ngo nhay_25: 2486565952239413504
+      bi ngo nhay_26: -2310974831218111310
+      bi ngo nhay_27: 107397312554988621
+      bi ngo nhay_28: -1476270480858800624
+      bi ngo nhay_29: 7417393565698596093
+      bi ngo nhay_3: 5755357823006973177
+      bi ngo nhay_4: 2871464501593322245
+      bi ngo nhay_5: 8602634091263111063
+      bi ngo nhay_6: 2009662671680008839
+      bi ngo nhay_7: -6425525578646316445
+      bi ngo nhay_8: 135147298118403291
+      bi ngo nhay_9: 1822003811537606999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
