@@ -124,7 +124,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 640
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -190,12 +190,12 @@ TextureImporter:
       name: bi ngo nhay_0
       rect:
         serializedVersion: 2
-        x: 409
-        y: 2059
-        width: 862
-        height: 1012
+        x: 407
+        y: 2057
+        width: 869
+        height: 1016
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: bi ngo nhay_1
       rect:
         serializedVersion: 2
-        x: 2089
-        y: 2069
-        width: 872
-        height: 962
+        x: 2084
+        y: 2064
+        width: 882
+        height: 969
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: bi ngo nhay_2
       rect:
         serializedVersion: 2
-        x: 3789
-        y: 2089
-        width: 852
-        height: 942
+        x: 3787
+        y: 2084
+        width: 855
+        height: 949
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: bi ngo nhay_3
       rect:
         serializedVersion: 2
-        x: 5489
-        y: 2189
-        width: 902
-        height: 1002
+        x: 5484
+        y: 2184
+        width: 908
+        height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: bi ngo nhay_4
       rect:
         serializedVersion: 2
-        x: 7169
-        y: 2079
-        width: 1102
-        height: 902
+        x: 7167
+        y: 2077
+        width: 1109
+        height: 909
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: bi ngo nhay_5
       rect:
         serializedVersion: 2
-        x: 8829
-        y: 2079
-        width: 972
-        height: 1002
+        x: 8824
+        y: 2077
+        width: 982
+        height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,12 +322,12 @@ TextureImporter:
       name: bi ngo nhay_6
       rect:
         serializedVersion: 2
-        x: 10519
-        y: 2769
-        width: 22
-        height: 22
+        x: 10514
+        y: 2765
+        width: 33
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: bi ngo nhay_7
       rect:
         serializedVersion: 2
-        x: 10579
-        y: 2119
-        width: 1072
-        height: 1032
+        x: 10574
+        y: 2117
+        width: 1082
+        height: 1036
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,12 +366,12 @@ TextureImporter:
       name: bi ngo nhay_8
       rect:
         serializedVersion: 2
-        x: 12369
-        y: 2069
-        width: 862
-        height: 942
+        x: 12364
+        y: 2064
+        width: 868
+        height: 949
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,12 +388,12 @@ TextureImporter:
       name: bi ngo nhay_9
       rect:
         serializedVersion: 2
-        x: 10489
-        y: 2709
-        width: 22
-        height: 22
+        x: 10487
+        y: 2705
+        width: 27
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -410,12 +410,12 @@ TextureImporter:
       name: bi ngo nhay_10
       rect:
         serializedVersion: 2
-        x: 10459
-        y: 2589
-        width: 22
-        height: 32
+        x: 10454
+        y: 2585
+        width: 33
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,12 +432,12 @@ TextureImporter:
       name: bi ngo nhay_11
       rect:
         serializedVersion: 2
-        x: 13199
-        y: 2459
-        width: 52
-        height: 22
+        x: 13192
+        y: 2451
+        width: 61
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,59 +451,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bi ngo nhay_12
-      rect:
-        serializedVersion: 2
-        x: 13249
-        y: 2069
-        width: 192
-        height: 372
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f6a98cbd34e2df80800000000000000
-      internalID: -8083147427369343245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bi ngo nhay_13
-      rect:
-        serializedVersion: 2
-        x: 9039
-        y: 2039
-        width: 32
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e01392ecb625519d0800000000000000
-      internalID: -2804244569994481394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: bi ngo nhay_14
       rect:
         serializedVersion: 2
-        x: 9219
-        y: 2009
-        width: 12
-        height: 12
+        x: 9211
+        y: 2004
+        width: 20
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -520,12 +476,12 @@ TextureImporter:
       name: bi ngo nhay_15
       rect:
         serializedVersion: 2
-        x: 409
-        y: 369
-        width: 862
-        height: 992
+        x: 407
+        y: 367
+        width: 869
+        height: 996
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -542,12 +498,12 @@ TextureImporter:
       name: bi ngo nhay_16
       rect:
         serializedVersion: 2
-        x: 2069
-        y: 379
-        width: 872
-        height: 882
+        x: 2064
+        y: 374
+        width: 882
+        height: 888
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -564,12 +520,12 @@ TextureImporter:
       name: bi ngo nhay_17
       rect:
         serializedVersion: 2
-        x: 3779
-        y: 429
-        width: 902
-        height: 1002
+        x: 3774
+        y: 428
+        width: 908
+        height: 1008
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -586,12 +542,12 @@ TextureImporter:
       name: bi ngo nhay_18
       rect:
         serializedVersion: 2
-        x: 5469
-        y: 569
-        width: 982
-        height: 822
+        x: 5464
+        y: 561
+        width: 989
+        height: 835
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -608,12 +564,12 @@ TextureImporter:
       name: bi ngo nhay_19
       rect:
         serializedVersion: 2
-        x: 7219
-        y: 309
-        width: 792
-        height: 1022
+        x: 7214
+        y: 307
+        width: 802
+        height: 1029
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,37 +583,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bi ngo nhay_20
-      rect:
-        serializedVersion: 2
-        x: 8759
-        y: 629
-        width: 142
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0789cf0f06a571880800000000000000
-      internalID: -8640337987680561040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: bi ngo nhay_21
       rect:
         serializedVersion: 2
-        x: 8879
-        y: 429
-        width: 1012
-        height: 992
+        x: 8877
+        y: 428
+        width: 1016
+        height: 995
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -674,12 +608,12 @@ TextureImporter:
       name: bi ngo nhay_22
       rect:
         serializedVersion: 2
-        x: 10619
-        y: 389
-        width: 1062
-        height: 1012
+        x: 10614
+        y: 387
+        width: 1069
+        height: 1016
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -696,12 +630,12 @@ TextureImporter:
       name: bi ngo nhay_23
       rect:
         serializedVersion: 2
-        x: 12339
-        y: 359
-        width: 852
-        height: 882
+        x: 12337
+        y: 354
+        width: 855
+        height: 888
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -718,12 +652,12 @@ TextureImporter:
       name: bi ngo nhay_24
       rect:
         serializedVersion: 2
-        x: 13409
-        y: 669
-        width: 22
-        height: 22
+        x: 13406
+        y: 661
+        width: 27
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -740,12 +674,12 @@ TextureImporter:
       name: bi ngo nhay_25
       rect:
         serializedVersion: 2
-        x: 8809
-        y: 589
-        width: 12
-        height: 22
+        x: 8804
+        y: 581
+        width: 20
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -762,12 +696,12 @@ TextureImporter:
       name: bi ngo nhay_26
       rect:
         serializedVersion: 2
-        x: 8839
-        y: 529
-        width: 12
-        height: 22
+        x: 8837
+        y: 528
+        width: 20
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -784,12 +718,12 @@ TextureImporter:
       name: bi ngo nhay_27
       rect:
         serializedVersion: 2
-        x: 13469
-        y: 509
-        width: 12
-        height: 42
+        x: 13466
+        y: 508
+        width: 20
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -806,12 +740,12 @@ TextureImporter:
       name: bi ngo nhay_28
       rect:
         serializedVersion: 2
-        x: 13419
-        y: 389
-        width: 12
-        height: 22
+        x: 13413
+        y: 387
+        width: 20
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -828,12 +762,12 @@ TextureImporter:
       name: bi ngo nhay_29
       rect:
         serializedVersion: 2
-        x: 13369
-        y: 349
-        width: 22
-        height: 22
+        x: 13366
+        y: 347
+        width: 27
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -846,11 +780,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bi ngo nhay_12
+      rect:
+        serializedVersion: 2
+        x: 9038
+        y: 2037
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69741c7ff2b427d44a47f30d11dab9ce
+      internalID: -8083147427369343245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fc55dfe186032b5449db4a899f21578d
     internalID: 0
     vertices: []
     indices: 
@@ -858,7 +814,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bi ngo nhay_0: 8974326714429057897
       bi ngo nhay_1: 5667041193299601671
