@@ -33,15 +33,16 @@ namespace Player
             //        gameManager.AddScore(1);
             //    }
             //}
-            //else if (other.CompareTag("Trap"))
-            //{
-            //    // Deal damage to player, but only if they are not invulnerable (e.g. dashing)
-            //    if (player != null && !player.IsInvulnerable)
-            //    {
-            //        int trapDamage = 20; // Default trap damage, customizable
-            //        player.TakeDamage(trapDamage);
-            //    }
-            //}
+
+            if (other.CompareTag("Trap"))
+            {
+                // Deal damage to player, but only if they are not invulnerable (e.g. dashing)
+                if (player != null && !player.IsInvulnerable)
+                {
+                    int trapDamage = 20; // Default trap damage, customizable
+                    player.TakeDamage(trapDamage);
+                }
+            }
             //else if (other.GetComponent<Enemies.Core.Enemy>() != null)
             //{
             //    // Deal damage to player when colliding with an enemy, if not invulnerable
