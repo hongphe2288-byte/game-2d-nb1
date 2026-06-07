@@ -1,55 +1,16 @@
 fileFormatVersion: 2
-guid: 0341f0a7ede564248bd899c5a81817e0
+guid: e2c5fff8daf272345919d03cd8da6e61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2424553518018739129
-    second: boss_0
+      213: 3335038671615760206
+    second: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_0"
   - first:
-      213: -3588229512158965765
-    second: boss_1
+      213: -4676062757718917886
+    second: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_1"
   - first:
-      213: -6963195877183015321
-    second: boss_2
-  - first:
-      213: 7801903984715115176
-    second: boss_3
-  - first:
-      213: -5888845342232556802
-    second: boss_4
-  - first:
-      213: -7366506907712603825
-    second: boss_5
-  - first:
-      213: 5981802871748074552
-    second: boss_6
-  - first:
-      213: -8797041637764437337
-    second: boss_7
-  - first:
-      213: -6067672718842985316
-    second: boss_8
-  - first:
-      213: 8484074019104989873
-    second: boss_9
-  - first:
-      213: 1734522602796540859
-    second: boss_10
-  - first:
-      213: 4811487537473343952
-    second: boss_11
-  - first:
-      213: 576763674245041098
-    second: boss_12
-  - first:
-      213: 7875803310954514552
-    second: boss_13
-  - first:
-      213: -111301877416365784
-    second: boss_14
-  - first:
-      213: 3046850359654010694
-    second: boss_15
+      213: 3661138446647127767
+    second: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_2"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -145,353 +106,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_0
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_0"
       rect:
         serializedVersion: 2
-        x: 23
-        y: 414
-        width: 163
-        height: 122
+        x: 1
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 744c193db614a5ed0800000000000000
-      internalID: -2424553518018739129
+      spriteID: e4719d58000784e20800000000000000
+      internalID: 3335038671615760206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_1
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_1"
       rect:
         serializedVersion: 2
-        x: 177
-        y: 415
-        width: 13
-        height: 16
+        x: 65
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bff013b154c043ec0800000000000000
-      internalID: -3588229512158965765
+      spriteID: 20dfaba52b94b1fb0800000000000000
+      internalID: -4676062757718917886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_2
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_2"
       rect:
         serializedVersion: 2
-        x: 229
-        y: 415
-        width: 165
-        height: 123
+        x: 129
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 766ba070e32cd5f90800000000000000
-      internalID: -6963195877183015321
+      spriteID: 7de6de9050afec230800000000000000
+      internalID: 3661138446647127767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_3
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_3"
       rect:
         serializedVersion: 2
-        x: 422
-        y: 400
-        width: 183
-        height: 150
+        x: 193
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8aa26ac765ee54c60800000000000000
-      internalID: 7801903984715115176
+      spriteID: 7a0e8282854db974c9183607163ba6ec
+      internalID: -222216322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_4
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_4"
       rect:
         serializedVersion: 2
-        x: 625
-        y: 413
-        width: 180
-        height: 136
+        x: 257
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: efac3079c5e964ea0800000000000000
-      internalID: -5888845342232556802
+      spriteID: f97f162cb27b40c4abd5fc1da05cac04
+      internalID: -1829279376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_5
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_5"
       rect:
         serializedVersion: 2
-        x: 824
-        y: 399
-        width: 178
-        height: 160
+        x: 321
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4934523ff8e4c990800000000000000
-      internalID: -7366506907712603825
+      spriteID: b18f0870ad3d28e4cbf5bcbb9883e448
+      internalID: -1657098416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_6
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_6"
       rect:
         serializedVersion: 2
-        x: 12
-        y: 216
-        width: 171
-        height: 160
+        x: 385
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 83c94f6d402a30350800000000000000
-      internalID: 5981802871748074552
+      spriteID: a414fcd7f29265740a6986c1fdeb9678
+      internalID: -213999542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_7
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_7"
       rect:
         serializedVersion: 2
-        x: 220
-        y: 217
-        width: 186
-        height: 148
+        x: 449
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7aaeaba3d31aae580800000000000000
-      internalID: -8797041637764437337
+      spriteID: e8923e611d0b8a44e86f3a19b644011d
+      internalID: -621257254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_8
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_8"
       rect:
         serializedVersion: 2
-        x: 422
-        y: 217
-        width: 180
-        height: 136
+        x: 1
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9409046fcb4bcba0800000000000000
-      internalID: -6067672718842985316
+      spriteID: e088527df72eef54dbcc65bab6d99550
+      internalID: -1561180413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_9
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_9"
       rect:
         serializedVersion: 2
-        x: 624
-        y: 224
-        width: 171
-        height: 125
+        x: 65
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b2afdcae5c7db570800000000000000
-      internalID: 8484074019104989873
+      spriteID: e1bed4709fbe9d04f936697bbf47bc4d
+      internalID: 531636359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_10
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_10"
       rect:
         serializedVersion: 2
-        x: 823
-        y: 222
-        width: 165
-        height: 126
+        x: 129
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb3e29a0e13421810800000000000000
-      internalID: 1734522602796540859
+      spriteID: 06647d62c8cc6714792583b3942a23c0
+      internalID: -195711706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_11
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_11"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 13
-        width: 163
-        height: 126
+        x: 193
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d151584c66d5c240800000000000000
-      internalID: 4811487537473343952
+      spriteID: 6d0b7778dc9da4f4793ba9555683b661
+      internalID: 1318786821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_12
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_12"
       rect:
         serializedVersion: 2
-        x: 222
-        y: 12
-        width: 170
-        height: 126
+        x: 257
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: acb89b28183110800800000000000000
-      internalID: 576763674245041098
+      spriteID: 2c2131a66dbc79a48bbb786d95764bee
+      internalID: -211058547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_13
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_13"
       rect:
         serializedVersion: 2
-        x: 437
-        y: 21
-        width: 167
-        height: 123
+        x: 321
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8780a4e22697c4d60800000000000000
-      internalID: 7875803310954514552
+      spriteID: 76f27ee07c63ee5449c7b9d2948b6cc3
+      internalID: -2036220239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_14
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_14"
       rect:
         serializedVersion: 2
-        x: 660
-        y: 27
-        width: 161
-        height: 126
+        x: 385
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 82173cd3883947ef0800000000000000
-      internalID: -111301877416365784
+      spriteID: 41887d88aead692468f71b8fbf2b60df
+      internalID: 640090795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_15
+      name: "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_15"
       rect:
         serializedVersion: 2
-        x: 828
-        y: 28
-        width: 165
-        height: 124
+        x: 449
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64fc2fa5246984a20800000000000000
-      internalID: 3046850359654010694
+      spriteID: 30b33a9c2c9bf1e49a8d01ac2b4b9766
+      internalID: -1493836070
       vertices: []
       indices: 
       edges: []
@@ -500,7 +461,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a41bcc14f676a5a4d9355759dfa18b47
     internalID: 0
     vertices: []
     indices: 
@@ -508,24 +469,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":1.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boss_0: -2424553518018739129
-      boss_1: -3588229512158965765
-      boss_10: 1734522602796540859
-      boss_11: 4811487537473343952
-      boss_12: 576763674245041098
-      boss_13: 7875803310954514552
-      boss_14: -111301877416365784
-      boss_15: 3046850359654010694
-      boss_2: -6963195877183015321
-      boss_3: 7801903984715115176
-      boss_4: -5888845342232556802
-      boss_5: -7366506907712603825
-      boss_6: 5981802871748074552
-      boss_7: -8797041637764437337
-      boss_8: -6067672718842985316
-      boss_9: 8484074019104989873
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_0": 3335038671615760206
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_1": -4676062757718917886
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_10": -195711706
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_11": 1318786821
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_12": -211058547
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_13": -2036220239
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_14": 640090795
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_15": -1493836070
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_2": 3661138446647127767
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_3": -222216322
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_4": -1829279376
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_5": -1657098416
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_6": -213999542
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_7": -621257254
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_8": -1561180413
+      "qu\xE1i v\u1EADt t\u1EA5n c\xF4ng_9": 531636359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
