@@ -103,6 +103,8 @@ namespace Player
 
         private void PerformAttackDetection()
         {
+            Debug.Log("[Player Attack] PerformAttackDetection() được gọi từ Animation Event!");
+
             // Calculate hitbox position relative to player facing direction
             Vector2 hitboxPos = (Vector2)player.transform.position + new Vector2(
                 player.PlayerData.attackOffset.x * player.FacingDir,
@@ -111,18 +113,32 @@ namespace Player
 
             // Find all colliders in the attack range
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(hitboxPos, player.PlayerData.attackRadius);
+            
+            Debug.Log($"[Player Attack] Quét hitbox tại {hitboxPos} với bán kính {player.PlayerData.attackRadius}. Tìm thấy {hitEnemies.Length} colliders.");
 
             bool hitAnyEnemy = false;
             int damage = player.PlayerData.damagePerComboStep[currentComboIndex];
 
             foreach (Collider2D enemyCollider in hitEnemies)
             {
+                Debug.Log($"[Player Attack] Phát hiện collider: {enemyCollider.gameObject.name} trên Layer: {LayerMask.LayerToName(enemyCollider.gameObject.layer)}");
+                
                 // Check if collider has Enemy component (to be created)
                 Enemies.Core.Enemy enemy = enemyCollider.GetComponent<Enemies.Core.Enemy>();
+                if (enemy == null)
+                {
+                    enemy = enemyCollider.GetComponentInParent<Enemies.Core.Enemy>();
+                }
+                
                 if (enemy != null)
                 {
+                    Debug.Log($"[Player Attack] Đã tìm thấy component Enemy trên {enemyCollider.gameObject.name}. Thực hiện gây {damage} sát thương.");
                     enemy.TakeDamage(damage);
                     hitAnyEnemy = true;
+                }
+                else
+                {
+                    Debug.Log($"[Player Attack] Collider {enemyCollider.gameObject.name} không chứa component Enemy hay BatEnemy.");
                 }
             }
 
