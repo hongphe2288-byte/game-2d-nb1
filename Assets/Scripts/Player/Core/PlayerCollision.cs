@@ -6,11 +6,13 @@ namespace Player
     {
         private PlayerController player;
         private Core.GameManager gameManager;
+        private AudioManager audioManager;
 
         private void Awake()
         {
             player = GetComponent<PlayerController>();
             gameManager = FindAnyObjectByType<Core.GameManager>();
+            audioManager = FindAnyObjectByType<AudioManager>();
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
@@ -41,6 +43,7 @@ namespace Player
                 {
                     int trapDamage = 20; // Default trap damage, customizable
                     player.TakeDamage(trapDamage);
+                    audioManager.PlayDamageSound();
                 }
             }
             //else if (other.GetComponent<Enemies.Core.Enemy>() != null)
