@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "game-2d-nb1.slnx",
+    "dotnet.defaultSolution": "bi ngoo knight.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
