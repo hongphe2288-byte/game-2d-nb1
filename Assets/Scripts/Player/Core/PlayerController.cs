@@ -20,6 +20,7 @@ namespace Player
         // Components
         public Rigidbody2D Rb { get; private set; }
         public Animator Anim { get; private set; }
+        public PlayerRespawn Respawn { get; private set; }
         private Core.GameManager gameManager;
 
         // Input
@@ -43,6 +44,7 @@ namespace Player
         {
             Rb = GetComponent<Rigidbody2D>();
             Anim = GetComponent<Animator>();
+            Respawn = GetComponent<PlayerRespawn>();
             gameManager = FindAnyObjectByType<Core.GameManager>();
 
             // Cache animator parameters to prevent runtime warnings/errors

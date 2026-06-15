@@ -25,14 +25,24 @@ namespace Player
 
         private void HandleCollision(GameObject other)
         {
-            //if (other.CompareTag("Coin"))
-            //{
-            //    Destroy(other);
-            //    if (gameManager != null)
-            //    {
-            //        gameManager.AddScore(1);
-            //    }
-            //}
+            if (other.CompareTag("Deathzone"))
+            {
+                if (player != null && player.Respawn != null && !player.IsInvulnerable)
+                {
+                    player.Respawn.FallIntoPit(20);
+                }
+                return;
+            }
+
+            if (other.CompareTag("Checkpoint"))
+            {
+                if (player != null && player.Respawn != null)
+                {
+                    player.Respawn.UpdateCheckpoint(other.transform.position);
+                    Destroy(other); // Phá huỷ checkpoint sau khi ăn để biến mất
+                }
+                return;
+            }
 
             if (other.CompareTag("Trap"))
             {
@@ -43,15 +53,6 @@ namespace Player
                     player.TakeDamage(trapDamage);
                 }
             }
-            //else if (other.GetComponent<Enemies.Core.Enemy>() != null)
-            //{
-            //    // Deal damage to player when colliding with an enemy, if not invulnerable
-            //    if (player != null && !player.IsInvulnerable)
-            //    {
-            //        int enemyDamage = 15; // Default enemy contact damage, customizable
-            //        player.TakeDamage(enemyDamage);
-            //    }
-            //}
         }
     }
 }

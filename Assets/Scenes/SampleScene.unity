@@ -12276,7 +12276,7 @@ GameObject:
   - component: {fileID: 897483231}
   - component: {fileID: 897483230}
   - component: {fileID: 897483229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Emeny_boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12396,8 +12396,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2051570885
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3434026258516745551, guid: bcdde1591e52f81468ea4fece48d5e3c, type: 3}
@@ -12419,7 +12419,7 @@ Transform:
   m_GameObject: {fileID: 897483228}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 81.662, y: -13.498, z: 0}
+  m_LocalPosition: {x: 93.23, y: -12.97, z: 0}
   m_LocalScale: {x: 2.9625, y: 2.9625, z: 2.9625}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13278,7 +13278,7 @@ GameObject:
   - component: {fileID: 1323999185}
   m_Layer: 0
   m_Name: dark_castle_tileset_13 (1)
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19324,7 +19324,7 @@ GameObject:
   - component: {fileID: 2109407107}
   m_Layer: 0
   m_Name: dark_castle_tileset_13 (2)
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
