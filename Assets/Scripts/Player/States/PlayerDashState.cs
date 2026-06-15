@@ -6,18 +6,26 @@ namespace Player
     {
         private float dashTimer;
         private float originalGravity;
+        private AudioManager audioManager;
 
-        public PlayerDashState(PlayerController player, PlayerStateMachine stateMachine, string animBoolName) 
+        public PlayerDashState(PlayerController player, PlayerStateMachine stateMachine, string animBoolName)
             : base(player, stateMachine, animBoolName)
         {
+            audioManager = Object.FindObjectOfType<AudioManager>();
         }
 
         public override void Enter()
         {
             base.Enter();
-            
+
+            // Play dash sound
+            if (audioManager != null)
+            {
+                audioManager.PlayDashSound();
+            }
+
             dashTimer = player.PlayerData.dashDuration;
-            
+
             // Save original gravity and freeze gravity
             originalGravity = player.Rb.gravityScale;
             player.Rb.gravityScale = 0f;
@@ -36,7 +44,7 @@ namespace Player
         public override void Exit()
         {
             base.Exit();
-            
+
             // Restore gravity
             player.Rb.gravityScale = originalGravity;
 
