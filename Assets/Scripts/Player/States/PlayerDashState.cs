@@ -11,7 +11,7 @@ namespace Player
         public PlayerDashState(PlayerController player, PlayerStateMachine stateMachine, string animBoolName)
             : base(player, stateMachine, animBoolName)
         {
-            audioManager = Object.FindObjectOfType<AudioManager>();
+            audioManager = Object.FindAnyObjectByType<AudioManager>();
         }
 
         public override void Enter()
