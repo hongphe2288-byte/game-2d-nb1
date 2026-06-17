@@ -12033,10 +12033,10 @@ MonoBehaviour:
   backgroundMusic: {fileID: 1766689705}
   effectAudioSource: {fileID: 1833807270}
   backGroundClip: {fileID: 8300000, guid: 962b87ed1a951a74c9095dfd6ab45255, type: 3}
-  jumpClip: {fileID: 8300000, guid: 0652dfb0d9a3e294aa49bd00a529c6c5, type: 3}
+  jumpClip: {fileID: 8300000, guid: 1d47a96016149d3479d790d82d69971b, type: 3}
   doubleJumbClip: {fileID: 8300000, guid: 922e69c214775eb41afd61e07cd56fa9, type: 3}
   dashClip: {fileID: 8300000, guid: 25b1441ecac53f14e8c0fd1ae8b04677, type: 3}
-  attackClip: {fileID: 8300000, guid: 02584a2e3a7b4be479732f14fb39e0b5, type: 3}
+  attackClip: {fileID: 8300000, guid: 6bf2596035040964ebc17fda24db7ab5, type: 3}
   damageClip: {fileID: 8300000, guid: 913eb84e71047d640a0a78c17fd51024, type: 3}
   runClip: {fileID: 8300000, guid: 2231ea515bdaeeb4da3236c666371965, type: 3}
 --- !u!4 &702215938

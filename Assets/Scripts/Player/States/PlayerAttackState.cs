@@ -7,15 +7,23 @@ namespace Player
         private bool attackInputReceived;
         private int currentComboIndex;
         private float lastAttackTime;
+        private AudioManager audioManager;
 
         public PlayerAttackState(PlayerController player, PlayerStateMachine stateMachine, string animBoolName) 
             : base(player, stateMachine, animBoolName)
         {
+            audioManager = Object.FindObjectOfType<AudioManager>();
         }
 
         public override void Enter()
         {
             base.Enter();
+
+            // Play attack sound
+            if (audioManager != null)
+            {
+                audioManager.PlayAttackSound();
+            }
 
             attackInputReceived = false;
 
@@ -55,7 +63,6 @@ namespace Player
             // Fail-safe timeout: transition back to Idle if the animation event doesn't fire
             if (Time.time - startTime > 0.8f)
             {
-                //Debug.LogWarning("[FSM Warning] Player Attack State timed out (0.8s). Force transitioning to IdleState. Please verify that Animation Events (AnimationFinishTrigger) are set up on your attack animations.");
                 currentComboIndex = 0;
                 stateMachine.ChangeState(player.IdleState);
             }
@@ -123,7 +130,7 @@ namespace Player
             {
                 Debug.Log($"[Player Attack] Phát hiện collider: {enemyCollider.gameObject.name} trên Layer: {LayerMask.LayerToName(enemyCollider.gameObject.layer)}");
                 
-                // Check if collider has Enemy component (to be created)
+                // Check if collider has Enemy component
                 Enemies.Core.Enemy enemy = enemyCollider.GetComponent<Enemies.Core.Enemy>();
                 if (enemy == null)
                 {
@@ -145,7 +152,10 @@ namespace Player
             if (hitAnyEnemy)
             {
                 // Trigger hitstop and screen shake on the GameManager
-                player.TriggerHitstopAndScreenShake(player.PlayerData.hitstopDuration, player.PlayerData.screenShakeIntensity);
+                player.TriggerHitstopAndScreenShake(
+                    player.PlayerData.hitstopDuration,
+                    player.PlayerData.screenShakeIntensity
+                );
             }
         }
     }
