@@ -20,7 +20,7 @@ namespace Enemies
         protected override void Awake()
         {
             base.Awake();
-            
+
             // Tự động tắt kích hoạt đạn gốc trong scene ở Awake để tránh đạn tự rơi tự do và bị hủy ngay khi game start
             if (bulletPrefab != null && bulletPrefab.scene.IsValid())
             {
@@ -32,7 +32,7 @@ namespace Enemies
         protected override void Start()
         {
             base.Start();
-            
+
             // Ban đầu chưa kích hoạt, vô hiệu hóa di chuyển của AIPath
             if (aiPath != null)
             {
@@ -77,9 +77,12 @@ namespace Enemies
                 {
                     // Đứng yên ở trạng thái Idle trước khi kích hoạt
                     SetAnimBool(idleAnimParam, true);
-                    return; 
+                    return;
                 }
             }
+
+            // LUÔN LUÔN XOAY MẶT VỀ PHÍA PLAYER KHI ĐÃ THỨC TỈNH
+            RotateTowardsPlayer();
 
             // Sau khi đã kích hoạt, chạy logic kiểm tra tầm đánh / di chuyển bám đuổi của lớp cha
             float currentDistance = Vector2.Distance(transform.position, player.transform.position);
@@ -100,6 +103,24 @@ namespace Enemies
             }
         }
 
+        // Xoay mặt về phía Player (Sprite mặc định hướng sang bên Trái)
+        private void RotateTowardsPlayer()
+        {
+            if (player == null || isHit || isDead) return;
+
+            float directionX = player.transform.position.x - transform.position.x;
+            if (directionX > 0.1f)
+            {
+                // Player ở bên phải -> giữ mặt hướng sang phải (scale X dương)
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            else if (directionX < -0.1f)
+            {
+                // Player ở bên trái -> lật mặt sang trái (scale X âm)
+                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+        }
+
         // Kích hoạt Boss
         private void ActivateBoss()
         {
@@ -109,26 +130,6 @@ namespace Enemies
                 aiPath.canMove = true;
             }
             Debug.Log($"[SquidBoss] Player đã đi vào phạm vi kích hoạt! Boss Mực {gameObject.name} thức tỉnh!");
-        }
-
-        // Override hàm di chuyển để cập nhật hướng quay mặt về phía Player (cho quái vật mực)
-        protected override void MoveBehavior()
-        {
-            base.MoveBehavior();
-            
-            // Hướng mặt về phía Player
-            if (player != null)
-            {
-                float directionX = player.transform.position.x - transform.position.x;
-                if (directionX > 0.1f)
-                {
-                    transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-                }
-                else if (directionX < -0.1f)
-                {
-                    transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-                }
-            }
         }
 
         // Ghi đè phương thức tấn công: Thay vì cận chiến trực tiếp, Boss sẽ bắn đạn
@@ -147,13 +148,8 @@ namespace Enemies
                 rb.linearVelocity = Vector2.zero; // Triệt tiêu lực quán tính vật lý
             }
 
-            // Hướng mặt về phía Player trước khi bắn
-            if (player != null)
-            {
-                float directionX = player.transform.position.x - transform.position.x;
-                if (directionX > 0f) transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-                else transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
+            // Hướng mặt về phía Player trước khi bắn (Sprite mặc định hướng sang bên Trái)
+            RotateTowardsPlayer();
 
             // Cập nhật Animator
             SetAnimBool(idleAnimParam, false);
@@ -163,6 +159,8 @@ namespace Enemies
             // Việc bắn đạn sẽ hoàn toàn do Animation Event ở frame 40 kích hoạt.
             // Việc kết thúc trạng thái tấn công (isAttacking = false) cũng sẽ hoàn toàn phụ thuộc vào
             // Animation Event gọi hàm AnimationFinishTrigger() ở frame cuối cùng của animation tấn công.
+            // Cơ chế Failsafe: Tự động reset sau 1.5s phòng khi Animation Event bị thiếu trong Editor
+            StartCoroutine(AutoResetAttack(1.5f));
         }
 
         // Thực hiện khởi tạo và bắn đạn về phía Player (để public để Animation Event gọi dễ dàng)
@@ -180,7 +178,7 @@ namespace Enemies
             }
 
             Vector3 spawnPos = firePos != null ? firePos.position : transform.position;
-            
+
             // Tính toán hướng bắn từ firePos tới Player
             Vector2 shootDirection = ((Vector2)player.transform.position - (Vector2)spawnPos).normalized;
 
@@ -189,7 +187,7 @@ namespace Enemies
 
             // Tạo quả cầu đạn
             GameObject bulletObj = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
-            
+
             // Đảm bảo đạn được active (vì prefab gốc có thể đã bị deactivate ở Start)
             bulletObj.SetActive(true);
 
