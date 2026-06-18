@@ -1,14 +1,14 @@
-using UnityEngine;
-using TMPro;
-using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Core
 {
     public class GameManager : MonoBehaviour
     {
         private int score = 0;
-        [SerializeField] private TextMeshProUGUI scoreText;
+        // [SerializeField] private TextMeshProUGUI scoreText;
         [SerializeField] private GameObject gameOverUi;
         private bool isGameOver = false;
 
@@ -18,7 +18,7 @@ namespace Core
             {
                 gameOverUi.SetActive(false);
             }
-            UpdateScore();
+            // UpdateScore();
         }
 
         public void AddScore(int points)
@@ -26,17 +26,17 @@ namespace Core
             if (!isGameOver)
             {
                 score += points;
-                UpdateScore();
+                // UpdateScore();
             }
         }
 
-        private void UpdateScore()
-        {
-            if (scoreText != null)
-            {
-                scoreText.text = score.ToString();
-            }
-        }
+        // private void UpdateScore()
+        // {
+        //     if (scoreText != null)
+        //     {
+        //         scoreText.text = score.ToString();
+        //     }
+        // }
 
         public void GameOver()
         {
@@ -52,7 +52,7 @@ namespace Core
         {
             isGameOver = false;
             score = 0;
-            UpdateScore();
+            // UpdateScore();
             Time.timeScale = 1f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
