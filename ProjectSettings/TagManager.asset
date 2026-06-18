@@ -59,6 +59,9 @@ TagManager:
   - name: player
     uniqueID: 2243396411
     locked: 0
+  - name: canvas
+    uniqueID: 2058051729
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

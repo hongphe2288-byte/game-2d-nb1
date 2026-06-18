@@ -30,7 +30,7 @@ namespace Enemies
                 aiPath.canMove = false;
             }
             
-            Debug.Log($"[BatEnemy] {gameObject.name} (Dơi) đã sẵn sàng hoạt động! Đang chờ Player trong bán kính {activationRadius}m...");
+           
         }
 
         protected override void Update()
@@ -66,7 +66,7 @@ namespace Enemies
             {
                 aiPath.canMove = true;
             }
-            Debug.Log($"[BatEnemy] Player đã đi vào phạm vi kích hoạt! Bat {gameObject.name} thức tỉnh!");
+            
         }
 
         public override void TakeDamage(int damageTaken)
@@ -97,7 +97,7 @@ namespace Enemies
         protected override void StartAttack()
         {
             // Có thể thêm hiệu ứng âm thanh đập cánh hoặc rít lên của Dơi tại đây trước khi đánh
-            Debug.Log($"[BatEnemy] {gameObject.name} rít lên và lao vào tấn công!");
+            
             
             base.StartAttack();
         }

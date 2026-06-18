@@ -7,7 +7,7 @@ namespace Core
 {
     public class GameManager : MonoBehaviour
     {
-        private int score = 0;
+        // private int score = 0;
         // [SerializeField] private TextMeshProUGUI scoreText;
         [SerializeField] private GameObject gameOverUi;
         private bool isGameOver = false;
@@ -25,7 +25,7 @@ namespace Core
         {
             if (!isGameOver)
             {
-                score += points;
+                // score += points;
                 // UpdateScore();
             }
         }
@@ -50,11 +50,12 @@ namespace Core
 
         public void RestartGame()
         {
+
             isGameOver = false;
-            score = 0;
+            // score = 0;
             // UpdateScore();
             Time.timeScale = 1f;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("map");
         }
 
         public bool IsGameOver()
