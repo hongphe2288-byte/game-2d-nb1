@@ -12,9 +12,11 @@ namespace Enemies
         [Header("Bat Specific Settings")]
         [SerializeField] private float hoverAmplitude = 0.5f; // Biên độ dao động bay lượn
         [SerializeField] private float hoverFrequency = 2f;   // Tần số dao động bay lượn
+        [SerializeField] private float activationRadius = 8f;  // Bán kính kích hoạt Bat hoạt động giống như boss
 
         private float startY;
         private float randomOffset;
+        private bool isActivated = false;
 
         protected override void Start()
         {
@@ -22,7 +24,59 @@ namespace Enemies
             startY = transform.position.y;
             randomOffset = Random.Range(0f, 100f);
             
-            Debug.Log($"[BatEnemy] {gameObject.name} (Dơi) đã sẵn sàng hoạt động!");
+            // Ban đầu chưa kích hoạt, vô hiệu hóa di chuyển của AIPath
+            if (aiPath != null)
+            {
+                aiPath.canMove = false;
+            }
+            
+            Debug.Log($"[BatEnemy] {gameObject.name} (Dơi) đã sẵn sàng hoạt động! Đang chờ Player trong bán kính {activationRadius}m...");
+        }
+
+        protected override void Update()
+        {
+            if (isDead) return;
+
+            if (player == null) return;
+
+            // Kiểm tra trạng thái kích hoạt dựa trên khoảng cách tới Player
+            if (!isActivated)
+            {
+                float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+                if (distanceToPlayer <= activationRadius)
+                {
+                    ActivateBat();
+                }
+                else
+                {
+                    // Đứng yên ở trạng thái Idle trước khi kích hoạt
+                    SetAnimBool(idleAnimParam, true);
+                    return;
+                }
+            }
+
+            // Khi đã kích hoạt, chạy logic Update bình thường của base
+            base.Update();
+        }
+
+        private void ActivateBat()
+        {
+            isActivated = true;
+            if (aiPath != null)
+            {
+                aiPath.canMove = true;
+            }
+            Debug.Log($"[BatEnemy] Player đã đi vào phạm vi kích hoạt! Bat {gameObject.name} thức tỉnh!");
+        }
+
+        public override void TakeDamage(int damageTaken)
+        {
+            if (!isActivated && !isDead)
+            {
+                ActivateBat();
+            }
+
+            base.TakeDamage(damageTaken);
         }
 
         // Ví dụ ghi đè cách di chuyển: Thêm hiệu ứng bay nhấp nhô (hover) cho Dơi

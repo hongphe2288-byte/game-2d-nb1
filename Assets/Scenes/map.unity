@@ -1949,6 +1949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_doi (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5639569285756137660, guid: af54522020c009a4a86c740673f03048, type: 3}
+      propertyPath: activationRadius
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2323,6 +2327,7 @@ MonoBehaviour:
   deadAnimParam: isDead
   hoverAmplitude: 0.5
   hoverFrequency: 2
+  activationRadius: 5
 --- !u!114 &253123293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4175,6 +4180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_doi
       objectReference: {fileID: 0}
+    - target: {fileID: 5639569285756137660, guid: af54522020c009a4a86c740673f03048, type: 3}
+      propertyPath: activationRadius
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4986,6 +4995,10 @@ PrefabInstance:
     - target: {fileID: 4934443044697195476, guid: af54522020c009a4a86c740673f03048, type: 3}
       propertyPath: m_Name
       value: Enemy_doi (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639569285756137660, guid: af54522020c009a4a86c740673f03048, type: 3}
+      propertyPath: activationRadius
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10138,6 +10151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_doi (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5639569285756137660, guid: af54522020c009a4a86c740673f03048, type: 3}
+      propertyPath: activationRadius
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12073,6 +12090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_doi (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5639569285756137660, guid: af54522020c009a4a86c740673f03048, type: 3}
+      propertyPath: activationRadius
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12316,6 +12337,7 @@ MonoBehaviour:
   deadAnimParam: isDead
   hoverAmplitude: 0.5
   hoverFrequency: 2
+  activationRadius: 5
 --- !u!114 &1074504910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14721,6 +14743,10 @@ PrefabInstance:
     - target: {fileID: 4934443044697195476, guid: af54522020c009a4a86c740673f03048, type: 3}
       propertyPath: m_Name
       value: Enemy_doi (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639569285756137660, guid: af54522020c009a4a86c740673f03048, type: 3}
+      propertyPath: activationRadius
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
