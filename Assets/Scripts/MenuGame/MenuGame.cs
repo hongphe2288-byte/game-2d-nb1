@@ -4,7 +4,7 @@ public class MenuGame : MonoBehaviour
 {
    public void PlayGame()
    {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("map");
    }
    public void QuitGame()
    {
