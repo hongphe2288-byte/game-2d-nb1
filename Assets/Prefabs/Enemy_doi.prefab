@@ -84,7 +84,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -2051570885
+  m_SortingLayerID: -274328901
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
@@ -227,6 +227,7 @@ MonoBehaviour:
   deadAnimParam: isDead
   hoverAmplitude: 0.5
   hoverFrequency: 2
+  activationRadius: 8
 --- !u!50 &6629810222617260740
 Rigidbody2D:
   serializedVersion: 5

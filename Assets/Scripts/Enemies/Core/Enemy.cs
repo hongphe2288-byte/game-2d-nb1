@@ -74,17 +74,6 @@ namespace Enemies.Core
         {
             if (isDead) return;
 
-            // Xử lý khi đang bị choáng (Hit Stun)
-            if (isHit)
-            {
-                hitStunTimer -= Time.deltaTime;
-                if (hitStunTimer <= 0)
-                {
-                    ExitHitStun();
-                }
-                return; // Đang bị choáng thì không thực hiện di chuyển hay tấn công
-            }
-
             // Cập nhật bộ đếm thời gian cooldown tấn công
             if (attackTimer > 0)
             {
@@ -105,8 +94,8 @@ namespace Enemies.Core
             }
             else
             {
-                // Nếu người chơi ở xa và quái không ở trạng thái tấn công/bị đánh thì tiếp tục đuổi theo
-                if (!isAttacking && !isHit)
+                // Nếu người chơi ở xa và quái không ở trạng thái tấn công thì tiếp tục đuổi theo
+                if (!isAttacking)
                 {
                     MoveBehavior();
                 }
@@ -196,43 +185,13 @@ namespace Enemies.Core
             currentHealth -= damageTaken;
             Debug.Log($"{gameObject.name} nhận {damageTaken} sát thương. Máu còn: {currentHealth}/{maxHealth}");
 
-            // Chuyển sang trạng thái isHit
-            isHit = true;
-            isAttacking = false;
-            hitStunTimer = hitStunDuration;
-
-            // Dừng di chuyển ngay lập tức
-            if (aiPath != null)
-            {
-                aiPath.canMove = false;
-            }
-            if (rb != null)
-            {
-                rb.linearVelocity = Vector2.zero;
-            }
-
-            // Cập nhật Animator
-            SetAnimBool(idleAnimParam, false);
-            SetAnimBool(attackAnimParam, false);
-            SetAnimBool(hitAnimParam, true);
-
             if (currentHealth <= 0)
             {
                 Die();
             }
         }
 
-        // Thoát trạng thái bị choáng
-        protected virtual void ExitHitStun()
-        {
-            isHit = false;
-            SetAnimBool(hitAnimParam, false);
-            
-            if (aiPath != null)
-            {
-                aiPath.canMove = true;
-            }
-        }
+
 
         // Xử lý khi hết HP
         protected virtual void Die()

@@ -46,17 +46,6 @@ namespace Enemies
         {
             if (isDead) return;
 
-            // Xử lý khi bị choáng (Hit Stun)
-            if (isHit)
-            {
-                hitStunTimer -= Time.deltaTime;
-                if (hitStunTimer <= 0)
-                {
-                    ExitHitStun();
-                }
-                return;
-            }
-
             // Cập nhật thời gian hồi chiêu tấn công
             if (attackTimer > 0)
             {
@@ -106,7 +95,7 @@ namespace Enemies
         // Xoay mặt về phía Player (Sprite mặc định hướng sang bên Trái)
         private void RotateTowardsPlayer()
         {
-            if (player == null || isHit || isDead) return;
+            if (player == null || isDead) return;
 
             float directionX = player.transform.position.x - transform.position.x;
             if (directionX > 0.1f)

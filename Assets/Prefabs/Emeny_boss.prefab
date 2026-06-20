@@ -116,7 +116,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -2051570885
+  m_SortingLayerID: -274328901
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
@@ -239,14 +239,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.SquidBoss
   maxHealth: 100
   damage: 15
-  attackCooldown: 1.1
+  attackCooldown: 2.5
   attackRadius: 3
-  hitStunDuration: 0.4
+  hitStunDuration: 0.32
   idleAnimParam: isIdle
   attackAnimParam: isAttacking
   hitAnimParam: isHit
   deadAnimParam: isDead
-  bulletPrefab: {fileID: 4690873414788285288, guid: a7a5859339c47d941ad9634ace9c829a, type: 3}
+  bulletPrefab: {fileID: 3766800136058576954, guid: 7539d06dbcfe2714cad9280a8a9c36fa, type: 3}
   firePos: {fileID: 1780697561941839926}
   bulletForce: 12
   activationRadius: 5
