@@ -12185,7 +12185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3415813600656115036, guid: be592812b38daf14ca4dc8cad0f8781b, type: 3}
       propertyPath: maxHealth
-      value: 61
+      value: 251
       objectReference: {fileID: 0}
     - target: {fileID: 3415813600656115036, guid: be592812b38daf14ca4dc8cad0f8781b, type: 3}
       propertyPath: attackCooldown
@@ -14411,7 +14411,7 @@ Transform:
   m_GameObject: {fileID: 1055634515}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 235.5, y: 13.02, z: 0}
+  m_LocalPosition: {x: 37.8, y: 1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -108133,7 +108133,7 @@ Transform:
   m_GameObject: {fileID: 2076322353}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 235.5, y: 13.02, z: -10}
+  m_LocalPosition: {x: 37.8, y: 1.09, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108811,7 +108811,7 @@ Transform:
   m_GameObject: {fileID: 2132904264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 235.6548, y: 13.018271, z: -10}
+  m_LocalPosition: {x: 37.800266, y: 1.8990766, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
